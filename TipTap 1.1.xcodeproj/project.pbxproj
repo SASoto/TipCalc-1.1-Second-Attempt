@@ -14,6 +14,7 @@
 		708315EB1C1FA2E6005CB63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708315E91C1FA2E6005CB63C /* LaunchScreen.storyboard */; };
 		708315F61C1FA2E6005CB63C /* TipTap_1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708315F51C1FA2E6005CB63C /* TipTap_1_1Tests.swift */; };
 		708316011C1FA2E6005CB63C /* TipTap_1_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708316001C1FA2E6005CB63C /* TipTap_1_1UITests.swift */; };
+		70AAC4BE1C2085D600D5B38A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAC4BD1C2085D600D5B38A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		708315FC1C1FA2E6005CB63C /* TipTap 1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TipTap 1.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		708316001C1FA2E6005CB63C /* TipTap_1_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTap_1_1UITests.swift; sourceTree = "<group>"; };
 		708316021C1FA2E6005CB63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AAC4BD1C2085D600D5B38A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		708315DF1C1FA2E6005CB63C /* TipTap 1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				70AAC4BD1C2085D600D5B38A /* SettingsViewController.swift */,
 				708315E01C1FA2E6005CB63C /* AppDelegate.swift */,
 				708315E21C1FA2E6005CB63C /* ViewController.swift */,
 				708315E41C1FA2E6005CB63C /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				708315E31C1FA2E6005CB63C /* ViewController.swift in Sources */,
 				708315E11C1FA2E6005CB63C /* AppDelegate.swift in Sources */,
+				70AAC4BE1C2085D600D5B38A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				708316071C1FA2E6005CB63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		708316081C1FA2E6005CB63C /* Build configuration list for PBXNativeTarget "TipTap 1.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				7083160A1C1FA2E6005CB63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7083160B1C1FA2E6005CB63C /* Build configuration list for PBXNativeTarget "TipTap 1.1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				7083160D1C1FA2E6005CB63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
