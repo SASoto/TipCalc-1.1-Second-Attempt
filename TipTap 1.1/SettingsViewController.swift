@@ -19,6 +19,7 @@ class SettingsViewController: UIViewController {
         defaults.setDouble(0.2, forKey: "default_tip_percentage")
         defaults.synchronize()
         
+        
         // Do any additional setup after loading the view.
     }
 
